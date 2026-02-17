@@ -19,7 +19,7 @@ export default function Navbar() {
    <nav className="bg-white shadow-md px-6 py-4 flex items-center justify-between">
 
 
-      <div className="text-2xl font-bold text-bg-gray-900">
+      <div className="text-2xl font-bold text-indigo-600">
         <Link href="/">ShopMart</Link>
       </div>
 
@@ -92,7 +92,7 @@ export default function Navbar() {
           ) : (
             <Link
               href="/auth/login"
-              className="bg-gray-900  hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-medium transition transform active:scale-95"
+              className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium transition transform active:scale-95"
             >
               Login
             </Link>
